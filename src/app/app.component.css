@@ -1,0 +1,83 @@
+/* 
+  ul {
+    color: rgb(15, 47, 56);
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.0;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    padding: 1px 40px;
+    border-radius: 25px;
+  }
+ 
+  ul:hover, ul:active {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    
+  }
+  a{
+    text-decoration: none;
+    color:black;
+  }
+  #title{
+   font-size: 3rem;
+   display: flex;
+   justify-content: center;
+   cursor: pointer;
+
+  }
+  a:link,a:hover{
+   text-decoration: none;
+   color: white;
+  }
+  .dashboard{
+  margin-left: 29%;
+   margin-top: 1px;
+  }
+  .login{
+    margin-left: 87%;
+     margin-top: -50px;
+     font-family: 'Montserrat', sans-serif;
+     cursor: pointer;
+     border-radius: 25px;
+     padding: 2px 10px;
+    }
+    .login:hover, .login:active{
+      background-color: black;
+      cursor: pointer;
+      color: white;
+    }
+    .register{
+      margin-left: 1%;
+      margin-top: -50px;
+      font-family: 'Montserrat', sans-serif;
+      cursor: pointer;
+     border-radius: 25px;
+     padding: 2px 10px;
+      }
+      .register:hover, .register:active{
+        background-color: black;
+        cursor: pointer;
+        color: white;
+      }
+  
+  .history{
+    margin-left: 44%;
+     margin-top: 1px;
+    }
+    .aboutus{
+      margin-left: 56%;
+       margin-top: 1px;
+      }
+  
+
+  
+  
+  
+  
+  
+      
+      */

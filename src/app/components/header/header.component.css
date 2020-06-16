@@ -1,0 +1,21 @@
+
+
+.nav{
+    background: rgb(248, 221, 238);
+    width: 100%;
+    color: black;
+    display: flex ;
+    flex-direction: row;
+    height: 80px;
+    margin-top: 0px;
+    position: fixed;
+    justify-content: center;
+  }
+#title{
+    cursor: pointer;
+    color: black;
+    font-size: 3rem;
+}
+a{
+    text-decoration: none;
+}

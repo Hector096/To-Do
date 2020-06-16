@@ -1,0 +1,41 @@
+<title>Sign Up</title>
+
+<div class="main">
+  <p class="sign">Sign Up</p>
+  <form class="form1" [formGroup]='signupform' (ngSubmit)="register()">
+
+
+    <div>
+      <input [class.un1]="signupform.get('username').invalid && signupform.get('username').touched" class="un "
+        formControlName='username' type="text" placeholder="Username">
+
+    </div>
+    <div>
+      <input [class.un1]="signupform.get('accountno').invalid && signupform.get('accountno').touched" class="un "
+        formControlName='account' type="text" placeholder="Account No">
+
+    </div>
+
+
+    <div>
+      <input [class.un1]="signupform.get('emailid').invalid && signupform.get('emailid').touched" class="un "
+        formControlName='emailid' type="email" placeholder="Email">
+    </div>
+
+    <div>
+      <input [class.un1]="signupform.get('password').invalid && signupform.get('password').touched" class="un "
+        formControlName='password' type="text" placeholder="Password">
+    </div>
+
+    <div>
+      <input [class.un1]="signupform.get('mobile').invalid && signupform.get('confirmpassword').touched" class="un "
+        formControlName='confirmpassword' type="text" placeholder="Mobile No.">
+    </div>
+    <div>
+    </div>
+    <div>
+      <button [disabled]="!signupform.valid" class="submit" type="submit"> SignUp </button>
+
+    </div>
+  </form>
+</div>

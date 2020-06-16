@@ -1,0 +1,16 @@
+<title>Task</title>
+
+  <div class="main">
+    <p class="sign" >Dashboard</p>
+
+        
+        <form class="form1" [formGroup]='signupform' (ngSubmit)="transfer()" >
+        <input [class.un1]="signupform.get('accountno').invalid && signupform.get('accountno').touched" class="un " formControlName='accountno'  type="text" placeholder="Enter Account No" >
+        <input [class.un1]="signupform.get('amount').invalid && signupform.get('amount').touched" class="un " formControlName='amount'  type="text" placeholder="Enter Amount" >    
+        <button [disabled]="!signupform.valid" class="submit" type="submit"> Transfer </button>
+      </form>
+               
+      
+     
+                       
+    </div>
